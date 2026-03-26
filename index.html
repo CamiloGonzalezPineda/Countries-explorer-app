@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Countries Explorer</h1>
+    </header>
+    <main>
+        <section class="searchinp">
+            <input type="text" placeholder="Search Country" id="search">
+            <select id="regionFilter">
+                <option value="">Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+            
+            <select id="populationFilter">
+                <option value="">All</option>
+                <option value="1000000">Menor a 1M</option>
+                <option value="5000000">Menor a 5M</option>
+                <option value="10000000">Menor a 10M</option>
+            </select>
+        </section>
+
+        <section id="results">
+
+        </section>
+    </main>
+
+
+    
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
