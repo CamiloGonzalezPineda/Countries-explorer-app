@@ -5,7 +5,7 @@ A modern web application that consumes a public API to display real-time country
 ---
 
 ## Link
-
+https://countries-explorer-app-api.netlify.app
 
 
 ---
@@ -45,7 +45,7 @@ A modern web application that consumes a public API to display real-time country
 
 ```bash
 # Clone the repository
-git clone 
+git clone https://github.com/CamiloGonzalezPineda/Countries-explorer-app.git
 
 # Go to project folder
 cd countries-explorer
